@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(58, 139, 153);
+}
+
+.container {
+    background-color: rgb(58, 117, 218);
+    margin: 20px auto;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(16, 64, 128);
+    width: 1100px;
+}
+
+.player {
+    margin: 5px 10px;
+    display:block;
+    border-radius: 5px;
+    
+}
+
+.header .col {
+    background-color: #749bbbf6;
+    color: rgb(222, 225, 228);
+}
+
+.col {
+    position: relative;
+    float: left;
+    background-color: #8bbee9f6;
+    height: 30px;
+    margin-left: 2px;
+    font-size: 20px;
+    border: 3px solid rgb(252, 254, 255);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.flag img {
+    position: absolute;
+    
+    left: 0px;
+    top: -8px;
+    width: 100%;
+    height: 140%;
+
+}
+.position {
+   min-width: 7%;
+   
+}
+
+.flag {
+   background-color: white;
+   width: 7%;
+}
+
+.header .flag {
+    background-color: #749bbbf6;
+}
+
+.name{
+    text-align: left;
+    width: 26.4%;
+    text-indent: 20px;
+}
+
+.time {
+    width: 20%;
+
+}
+
+.shooting-time {
+    width: 15%;
+}
+
+.hits {
+    position: relative;
+    width: 20%;
+    background-color: white;
+}
+
+.header .hits {
+    background-color: #749bbbf6;
+}
+
+.hits img {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    left: 13px;
+    top: 0px;
+    height: 100%;
+    width: 90%;
+}
+
+.clearfix {
+     clear: both;
+}
+
+.footer {
+    position: relative;
+    background-color: rgb(58, 117, 218);
+    margin: 20px auto;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(16, 64, 128);
+    width: 1100px;
+}
+
+.footer :focus {
+    border: 4px solid rgb(11, 54, 119);
+}
+
+.footer button, .footer .input {
+    float: left;
+    width: 23%;
+    background-color: #8bbee9f6;
+    height: 38px;
+    margin: 5px 2px 5px 10px;
+    font-size: 18px;
+    border: 3px solid rgb(252, 254, 255);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(10, 88, 88);
+}
+
+.footer .sub {
+    height: 38px;
+    width: 10%;
+} 
+
+.footer .input {
+     height: 30px;
+}
+
+.footer .input:focus {
+    border: 5px solid rgb(11, 78, 141);
+}
+
+
+
